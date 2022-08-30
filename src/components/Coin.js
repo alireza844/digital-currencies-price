@@ -13,7 +13,6 @@ const Coin = ({ name, image, symbol, price, marketCap, priceChange, index }) => 
                 <p className="">{symbol.toUpperCase()}</p>
                 <p className="">{price.toLocaleString()}</p>
                 <p className={!priceChange.toString().includes("-") ? "text-green-600" : "text-red-600"}>{priceChange}</p>
-                <p className="sm:hidden md:block">{marketCap.toLocaleString()}</p>
             </div>
         </div>
     </>

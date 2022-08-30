@@ -60,6 +60,9 @@ const Landing = () => {
                                 }
                             </div>
                         }
+                        <h1 className="mt-10">Created by Alireza Tireh</h1>
+                        <a className="w-fit p-2 h-10 rounded-md m-2 bg-blue-500 text-white " href="https://github.com/alireza844">Git hub</a>
+                        <a className="w-fit p-2 h-10 rounded-md m-2 bg-blue-500 text-white mb-10" href="https://instagram.com/programmerAsli">Instagram</a>
                     </div>
                     : <Loader />
                 }
