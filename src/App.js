@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+//compoents
+import Landing from './components/Landing';
+
+//libraries
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex justify-center items-center mt-10">
+      <Landing />
+
+      <div>
+        <div className="fixed bottom-5 right-5">
+          <ScrollToTop smooth className="flex justify-center items-center" />
+        </div>
+      </div>
     </div>
   );
 }
